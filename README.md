@@ -9,7 +9,6 @@ If location access is denied, the app lists **all restaurants**.
 - **Search functionality**: Allows users to search for restaurants by name or description.
 - **MVVM Architecture**: The code is structured with a clean **ViewModel** that separates logic from the UI.
 - **Mock Data**: Predefined restaurant data with images, names, descriptions, and geolocation.
-- **SwiftUI best practices**: Uses `@StateObject`, `ObservableObject`, and `LazyVStack` for performance optimization.
 
 ## 🏗️ Project Structure
 - **Models**: Defines the `Restaurant` struct with properties like name, description, image, and geolocation.
