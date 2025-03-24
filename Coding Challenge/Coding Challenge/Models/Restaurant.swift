@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import CoreLocation
 
 struct Restaurant: Identifiable {
     let id = UUID()
@@ -15,5 +14,4 @@ struct Restaurant: Identifiable {
     let imageName: String
     let latitude: Double
     let longitude: Double
-    var distance: Double?
 }
